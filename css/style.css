@@ -1,0 +1,15 @@
+body#green {
+	background: #42ef7f;
+}
+
+body#yellow {
+	background: #efed42;
+}
+
+body#red {
+	background: #ef4242;
+}
+
+body#stop {
+	background: #222;
+}
