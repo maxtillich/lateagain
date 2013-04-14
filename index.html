@@ -1,13 +1,22 @@
 <html>
 <head>
 	<title>LATE AGAIN</title>
+	<script src="js/jquery-1.9.1.min.js"></script>
+	<script src="js/controller.js"></script>
+	<link rel="stylesheet" href="css/style.css">
 </head>
 <body>
 
-	<audio controls>
-		<source src="test.mp3" type="audio/mpeg">
-		Your browser does not support the audio element.
-	</audio>
+	<button class="test green">test <strong>green</strong></button>
+	<button class="test yellow">test <strong>yellow</strong></button>
+	<button class="test red">test <strong>red</strong></button>
+	<button class="stop"><strong>stop</strong></button>
+
+	<div>
+		<audio class="green" src="media/green.ogg" preload="auto"></audio>
+		<audio class="yellow" src="media/yellow.ogg" preload="auto"></audio>
+		<audio class="red" src="media/red.ogg" preload="auto"></audio>
+	</div>
 
 </body>
 </html>
