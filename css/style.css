@@ -1,15 +1,15 @@
+body {
+	background: #f1f1f1;
+}
+
 body#green {
 	background: #42ef7f;
 }
 
 body#yellow {
-	background: #efed42;
+	background: #f5ee27;
 }
 
 body#red {
 	background: #ef4242;
-}
-
-body#stop {
-	background: #222;
 }
