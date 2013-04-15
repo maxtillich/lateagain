@@ -9,17 +9,15 @@ $(document).ready(function(){
 
 		var key = e.which;
 		var color = '';
-		if(key == 97) {
+		if(key == 38) {
 			color = 'green';
-		} else if(key == 98) {
+		} else if(key == 96) {
 			color = 'yellow';
-		} else if(key == 99) {
+		} else if(key == 111) {
 			color = 'red';
 		} else {
-			console.log('Change key code to:');
 			console.log(key);
 		}
-		console.log(key);
 
 		var track = $('audio.' + color)[0];
 		track.load();
