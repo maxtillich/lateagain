@@ -1,5 +1,6 @@
 body {
 	background: #f1f1f1;
+	font-family: 'Source Sans Pro', Helvetica;
 }
 
 body#green {
@@ -12,4 +13,28 @@ body#yellow {
 
 body#red {
 	background: #ef4242;
+}
+
+button {
+	border: 0;
+	background: transparent;
+	border: 2px solid #232323;
+	color: #232323;
+	padding: 10px 8px;
+	font-size: 15px;
+	line-height: 15px;
+	text-transform: uppercase;
+	display: block;
+	margin-bottom: 10px;
+	cursor: pointer;
+}
+
+button:hover {
+	border-color: #555;
+	color: #555;
+}
+
+button:active {
+	border-color: #000;
+	color: #000;
 }

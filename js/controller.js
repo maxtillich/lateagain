@@ -54,4 +54,10 @@ $(document).ready(function(){
 		});
 	});
 
+	/* ui */
+	$('#hug').hide();
+	$(document).click(function() {
+		$('#hug').show();
+	});
+
 });
