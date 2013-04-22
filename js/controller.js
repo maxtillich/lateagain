@@ -23,13 +23,13 @@ $(document).ready(function(){
 		track.load();
 		track.play();
 
-		$('button.stop').click(function(){
+		$('.stop').click(function(){
 			track.pause();
-			$('body').removeAttr('id');
+			$('#hug').removeAttr('class');
 		});
 
-		$('body').removeAttr('id');
-		$('body').attr('id', color);
+		$('#hug').removeAttr('class');
+		$('#hug').attr('class', color);
 	});
 
 
@@ -45,19 +45,13 @@ $(document).ready(function(){
 		track.load();
 		track.play();
 
-		$('body').removeAttr('id');
-		$('body').attr('id', color);
+		$('#hug').removeAttr('class');
+		$('#hug').attr('class', color);
 
-		$('button.stop').click(function(){
+		$('.stop').click(function(){
 			track.pause();
-			$('body').removeAttr('id');
+			$('#hug').removeAttr('class');
 		});
-	});
-
-	/* ui */
-	$('#hug').hide();
-	$(document).click(function() {
-		$('#hug').show();
 	});
 
 });

@@ -1,40 +1,142 @@
+*, html {
+	margin: 0;
+	padding: 0;
+}
+
 body {
-	background: #f1f1f1;
+	padding: 0;
+	margin: 0;
 	font-family: 'Source Sans Pro', Helvetica;
+	background: url(../img/bg.jpg) center;
+	background-size: cover;
 }
 
-body#green {
-	background: #42ef7f;
+strong {
+	font-weight: 600;
 }
 
-body#yellow {
-	background: #f5ee27;
+#hug {
+	min-height: 100%;
+	background: rgba(255,255,255,0.9);
 }
 
-body#red {
-	background: #ef4242;
+#hug.green {
+	background: rgba(66,239,127,0.85);
+}
+
+#hug.yellow {
+	background: rgba(245,238,39,0.85);
+}
+
+#hug.red {
+	background: rgba(239,66,66,0.85);
+}
+
+#ui {
+	position: absolute;
+	top: 6%;
+	left: 6%;
+}
+
+#ui ul#buttons {
+	margin-bottom: 32px
+}
+
+#ui ul#buttons li {
+	list-style: none;
+	float: left;
+	margin-right: 16px
 }
 
 button {
 	border: 0;
-	background: transparent;
+	background: none !important;
 	border: 2px solid #232323;
 	color: #232323;
-	padding: 10px 8px;
+	padding: 14px 15px;
 	font-size: 15px;
 	line-height: 15px;
 	text-transform: uppercase;
 	display: block;
-	margin-bottom: 10px;
 	cursor: pointer;
+	/* width: 46px; */
+	text-align: center;
 }
 
 button:hover {
-	border-color: #555;
-	color: #555;
+	border-color: #444;
+	color: #444;
 }
 
 button:active {
 	border-color: #000;
 	color: #000;
 }
+
+h1 {
+	display: inline-block;
+	font-weight: 400;
+	font-size: 56px;
+	margin-bottom: 42px;
+	text-transform: uppercase;
+	cursor: default;
+}
+
+p {
+	margin-bottom: 32px;
+}
+
+iframe {
+	margin-bottom: 26px;
+}
+
+ul#meta {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+ul#meta li {
+	float: left;
+	margin-right: 15px;
+}
+
+#meta a {
+	color: #999;
+	text-decoration: none
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.clearfix:before,
+.clearfix:after {
+    content: " ";
+    display: table;
+}
+
+.clearfix:after {
+    clear: both;
+}
+
+.clearfix {
+    *zoom: 1;
+}
+
+
+
+
+
+
+
+
+
+
